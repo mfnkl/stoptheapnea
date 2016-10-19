@@ -36,6 +36,11 @@ a {
 
 ul {
     list-style: none;
+    padding: 0;
+}
+
+.u-text-center {
+    text-align: center;
 }
 
 .row {
@@ -96,14 +101,18 @@ ul {
 
 .container {
     max-width: 990px;
-    padding: 15px;
+    padding: 30px 15px;
     margin: 0 auto;
     text-align: left;
 }
 
-.intro {
-    padding: 40px 0;
-    text-align: center;
+.section {
+    padding: 0 0 40px;
+}
+
+.twitter-timeline-container {
+    width: 80%;
+    margin: 0 auto;
 }
 
 .audiences img {
@@ -113,8 +122,7 @@ ul {
 
 .footer {
     border-top: 1px solid #666;
-    margin-top: 40px;
-    padding-top: 40px;
+    padding-top: 30px;
     text-align: center;
     font-size: 0.8rem;
     color: #666;
