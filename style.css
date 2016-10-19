@@ -1,0 +1,125 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #333;
+    text-align: center;
+    line-height: 1.4;
+    color: #eee;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    color: #49cca9;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 0 0 0.4em;
+}
+
+.subheader {
+    font-size: 1.3rem;
+    margin: 0 auto 1em;
+    width: 80%;
+}
+
+a {
+    text-decoration: underline;
+    color: #eee;
+}
+
+ul {
+    list-style: none;
+}
+
+.row {
+    margin: 0 -15px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.col {
+    float: left;
+    padding: 30px 15px;
+    width: 100%;
+}    
+
+@media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    .subheader {
+        font-size: 1.45rem;
+    }
+
+    .col-md-2 {
+        width: 50%;
+    }
+
+    .col-md-4 {
+        width: 25%;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    .subheader {
+        font-size: 1.6rem;
+    }
+
+    .col-lg-2 {
+        width: 50%;
+    }
+
+    .col-lg-4 {
+        width: 25%;
+    }
+}
+
+.container {
+    max-width: 990px;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.intro {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.audiences img {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.footer {
+    border-top: 1px solid #666;
+    margin-top: 40px;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.footer a {
+    color: #666;
+}
