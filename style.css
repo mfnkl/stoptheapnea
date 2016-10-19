@@ -97,6 +97,10 @@ ul {
     .col-lg-4 {
         width: 25%;
     }
+
+    .twitter-timeline-container {
+        width: 80%;
+    }
 }
 
 .container {
@@ -111,7 +115,6 @@ ul {
 }
 
 .twitter-timeline-container {
-    width: 80%;
     margin: 0 auto;
 }
 
